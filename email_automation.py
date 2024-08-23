@@ -49,8 +49,8 @@ def send_email(subject, body, to_emails, attachment_path, sender_email, sender_p
 
 if __name__ == "__main__":
     # Email details
-    sender_email = "zahinhaquekhan@gmail.com"
-    sender_password = "wwrq optb vgym evlp"
+    sender_email = ""
+    sender_password = ""
     subject = "Immatriculation Certificate"
     body = """
     Dear sir, 
@@ -69,3 +69,5 @@ if __name__ == "__main__":
 
     # Send the email
     send_email(subject, body, to_emails, attachment_path, sender_email, sender_password)
+
+# List of places to submit Immatriculationsbescheinigung - Bank, Kulturticket
